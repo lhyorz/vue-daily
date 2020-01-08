@@ -1,4 +1,4 @@
-# zhihuribao
+# 知乎日报
 
 ## Project setup
 ```

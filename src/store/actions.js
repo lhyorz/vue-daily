@@ -23,7 +23,7 @@ export default {
     },
     // 判断当前收藏状态
     judgeCollectState: ({commit}) => {
-        commit(types.JUDEG_COLLECT_STATE);
+        commit(types.JUDGE_COLLECT_STATE);
     },
     // 修改新闻类型
     changeNewsType: ({commit}, type) => {

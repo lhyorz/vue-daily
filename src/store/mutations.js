@@ -37,7 +37,7 @@ export default {
         state.isCollect = !state.isCollect
     },
     // 判断当前收藏状态
-    [types.JUSGE_COLLECT_STATE](state){
+    [types.JUDGE_COLLECT_STATE](state){
         if(state.collectIds.indexOf(state.id)<0){
             state.isCollect = false ;
         }else{

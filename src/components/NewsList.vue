@@ -103,7 +103,7 @@ export default {
       },
       // 根据日期获取更新新闻数据
       fetchMoreData(){
-          axios.get('api/news/before' + this.dateStr)
+          axios.get('api/news/before/' + this.dateStr)
           .then(response => {
               // 合并数据
               let stories = response.data.stories;

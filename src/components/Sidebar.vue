@@ -59,7 +59,7 @@ export default {
         },
         // 获取路由参数上的id新闻具体内容
         fetchData(){
-            axios.get('api/theme')
+            axios.get('api/themes')
             .then(response=>{
                 this.data = response.data.others;
                 this.data.unshift({
