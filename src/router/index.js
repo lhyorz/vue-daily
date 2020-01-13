@@ -3,7 +3,7 @@ import Router from 'vue-router';
 import Index from '../pages/Index';
 import NewsDetail from '../pages/NewsDetail';
 import Comment from '../pages/Comment';
-import WirteComment from '../pages/WriteComment';
+import WriteComment from '../pages/WriteComment';
 import ThemeDetail from '../pages/ThemeDetail';
 import EditorsList from '../pages/EditorsList';
 import Editor from '../pages/Editor';
@@ -29,9 +29,9 @@ export default new Router({
             component: Comment
         },
         {
-            path: '/wirteComment/:id',
-            name: 'wirteComment',
-            component: WirteComment
+            path: '/writeComment/:id',
+            name: 'writeComment',
+            component: WriteComment
         },
         {
             path: '/themeDetail/:id',
